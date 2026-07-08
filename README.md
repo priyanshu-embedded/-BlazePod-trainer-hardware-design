@@ -2,13 +2,13 @@
 
 A custom PCB design for a wireless reaction-training pod (BlazePod-style device), built around an STM8S microcontroller and a 2.4GHz wireless radio module, with full Li-ion battery charging and protection circuitry.
 
-![3D PCB Render](hardware/pcb/3D_PCB_Blazepod.png)
+![3D PCB Render](3D_PCB_Blazepod.png)
 
 ## Overview
 
 This board is a compact, battery-powered training pod: a capacitive touch surface triggers an event, the microcontroller processes it, and a 2.4GHz radio link communicates with other pods or a base station — the same basic architecture used in commercial reaction-training and agility products. The design integrates power management, wireless communication, and touch sensing into a single small-form-factor board.
 
-**Full schematic:** [`hardware/schematics/Blazepod_schematics.pdf`](hardware/schematics/Blazepod_schematics.pdf)
+**Full schematic:** [`hardware/schematics/Blazepod_schematics.pdf`](Blazepod_schematics.pdf)
 **Bill of Materials:** [`docs/BOM.csv`](docs/BOM.csv)
 
 ## Key Specs
@@ -57,6 +57,3 @@ blazepod-trainer/
 
 Designed by Priyanshu Dubey. Reviewed by Vinay Chaddha.
 
-## License
-
-Add a license here (e.g. MIT or CERN-OHL-S for open hardware) before publishing publicly.
